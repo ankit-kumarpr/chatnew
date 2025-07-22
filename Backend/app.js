@@ -13,7 +13,7 @@ connectToDb();
 
 // Middleware
 app.use(cors({
-  origin: "https://chatnew-7ut1.onrender.com",
+  origin: "https://chatnew-zeta.vercel.app",
   credentials: true,
 }));
 app.use(express.json());
