@@ -10,7 +10,7 @@ const server = http.createServer(app);
 // Setup Socket.IO with proper CORS
 const io = new Server(server, {
   cors: {
-    origin: "https://chatnew-7ut1.onrender.com", // frontend URL
+    origin: "https://chatnew-7ut1.onrender.com/api", // frontend URL
     methods: ["GET", "POST"],
     credentials: true,
   },
