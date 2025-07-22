@@ -102,7 +102,7 @@ const socialLinks = [
   const handleLogin = async (enteredOtp) => {
     setIsLoading(true);
     try {
-      const url = `${Base_url}/auth/login`;
+      const url = `https://chatnew-7ut1.onrender.com/api/auth/login`;
       const headers = {
         "Content-Type": "application/json",
         Accept: "application/json",
