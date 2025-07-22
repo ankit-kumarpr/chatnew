@@ -22,7 +22,7 @@ const GroupChat = () => {
     const messagesContainerRef = useRef();
 
     useEffect(() => {
-        const newSocket = io('http://localhost:5500', {
+        const newSocket = io('https://chatnew-7ut1.onrender.com', {
             withCredentials: true,
         });
         setSocket(newSocket);
