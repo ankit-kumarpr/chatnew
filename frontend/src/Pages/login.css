@@ -21,7 +21,7 @@
   position: relative;
   /* background: #1E5631; */
 background: #000000;
-background: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, rgba(30, 86, 49, 1) 70%);
+ background: linear-gradient(270deg, rgba(0, 102, 255, 1) 0%, rgba(255, 223, 0, 1) 70%);
   z-index: 10;
 }
 
