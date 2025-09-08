@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./login.css";
 import Swal from "sweetalert2";
 import axios from "axios";
-import logo from "../images/gnet-logo.webp";
+import logo from "../images/Infun-logo.png";
 import robot from "../images/robot-icon.png"; 
 import Base_url from "./config";
 import { ToastContainer, toast } from 'react-toastify';
@@ -234,7 +234,7 @@ const socialLinks = [
         </div>
 
 {/* service section */}
-   <div className="services-section">
+{/*    <div className="services-section">
           <p className="services-title">Our Services</p>
           <div className="services-grid">
             {services.map((service, index) => (
@@ -246,7 +246,7 @@ const socialLinks = [
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* location */}
 
